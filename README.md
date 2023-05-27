@@ -63,3 +63,9 @@
 #### 2.actor ve customer tablolarında bulunan first_name sütunları için kesişen verileri sıralayalım.
 #### 3.actor ve customer tablolarında bulunan first_name sütunları için ilk tabloda bulunan ancak ikinci tabloda bulunmayan verileri sıralayalım.
 #### 4.İlk 3 sorguyu tekrar eden veriler için de yapalım.
+
+## PostgreSqlProject_12:
+#### 1.film tablosunda film uzunluğu length sütununda gösterilmektedir. Uzunluğu ortalama film uzunluğundan fazla kaç tane film vardır?
+#### 2.film tablosunda en yüksek rental_rate değerine sahip kaç tane film vardır?
+#### 3.film tablosunda en düşük rental_rate ve en düşün replacement_cost değerlerine sahip filmleri sıralayınız.
+#### 4.payment tablosunda en fazla sayıda alışveriş yapan müşterileri(customer) sıralayınız.
