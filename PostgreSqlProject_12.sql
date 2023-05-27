@@ -8,8 +8,6 @@ WHERE rental_rate = (SELECT MAX(rental_rate) FROM film)
 SELECT * FROM film
 WHERE rental_rate = (SELECT MIN(rental_rate) FROM film) AND replacement_cost = (SELECT MIN(replacement_cost) FROM film)
 --4.payment tablosunda en fazla sayıda alışveriş yapan müşterileri(customer) sıralayınız.
-SELECT * FROM payment
-SELECT * FROM customer
 SELECT COUNT(payment_id) AS "Toplam alışveriş miktarı" , customer.first_name , customer.last_name 
 FROM payment
 INNER JOIN customer ON customer.customer_id = payment.customer_id
